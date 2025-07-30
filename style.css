@@ -4,13 +4,13 @@
     --accent: #00f7ff;
     --bg-dark: #0a0a0a;
     --bg-darker: #3801fd;
-    --text: #7b00c2;
+    --text: #080808;
     --text-light: #ffffff;
-    --text-dark: #8f3535;
-    --grid-line: rgba(3, 112, 116, 0.1);
-    --highlight: rgba(0, 247, 255, 0.3);
-    --success: #095f37;
-    --warning: #ffcc00;
+    --text-dark: #1c19ce;
+    --grid-line: rgba(0, 0, 0, 0.1);
+    --highlight: rgba(9, 255, 0, 0.945);
+    --success: #00f884;
+    --warning: #b700ff;
     --danger: #55c1ff;
 }
 
@@ -38,8 +38,8 @@ body {
     width: 95%;
     overflow: auto;
     border: 1px solid var(--primary);
-    box-shadow: 0 0 20px rgba(1, 60, 255, 0.3),
-                0 0 40px rgba(0, 195, 255, 0.2);
+    box-shadow: 0 0 20px rgb(0, 0, 0),
+                0 0 40px rgb(0, 255, 76);
     background-color: var(--bg-darker);
     border-radius: 5px;
 }
@@ -57,7 +57,7 @@ body {
     font-size: 1.8rem;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: white;
+    color: rgb(8, 8, 8);
     text-shadow: 0 0 10px var(--primary),
                  0 0 20px var(--primary);
     position: relative;
